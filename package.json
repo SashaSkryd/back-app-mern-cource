@@ -1,0 +1,32 @@
+{
+  "name": "back-app-mern-cource",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SashaSkryd/back-app-mern-cource.git"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Sasha Skryd <sashaskryd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SashaSkryd/back-app-mern-cource/issues"
+  },
+  "homepage": "https://github.com/SashaSkryd/back-app-mern-cource#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "nodemon": "^2.0.13"
+  }
+}
